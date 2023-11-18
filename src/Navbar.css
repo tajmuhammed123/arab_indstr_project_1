@@ -1,0 +1,19 @@
+
+  .triangle-div {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 100px 100px 0;
+    border-color: transparent #ffff transparent transparent;
+    transform: scaleX(-1);
+  }
+  
+  .rectangle {
+    position: absolute;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100px;
+    background-color: #ffff;
+  }
+  
